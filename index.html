@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>브라우저 탭에 보이는 제목</title>
+  </head>
+  <body></body>
+  <script>
+    function func_1() {
+      console.log("func_1에서 실행");
+    }
+    const func_2 = () => {
+      console.log("func_2에서 실행");
+    };
+    const getSentence = (sentence) => {
+      console.log("입력받은 문장은" + sentence + "입니다");
+    };
+
+    const returnSentence = () => {
+      return "룰루 랄라";
+    };
+
+    func_1();
+    func_2();
+
+    getSentence("왕");
+    console.log(returnSentence());
+  </script>
+</html>
